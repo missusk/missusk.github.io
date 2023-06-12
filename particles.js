@@ -2,19 +2,19 @@ function particlesJSConfig() {
   particlesJS("particles-js", {
     particles: {
       number: {
-        value: 100,
+        value: 300,
         density: {
           enable: true,
-          value_area: 1000,
+          value_area: 2000,
         },
       },
       color: {
-        value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8"],
+        value: ["#aa73ff", "#f8c210", "#83d238", "#33b1f8", "#4deeea"],
       },
       shape: {
-        type: "circle",
+        type: ["circle", "triangle", "star", "polygon", "edge"],
         stroke: {
-          width: 0,
+          width: 2,
           color: "#fff",
         },
         polygon: {
@@ -37,7 +37,7 @@ function particlesJSConfig() {
         },
       },
       size: {
-        value: 2,
+        value: 1,
         random: true,
         anim: {
           enable: false,
@@ -73,10 +73,10 @@ function particlesJSConfig() {
       events: {
         onhover: {
           enable: true,
-          mode: "grab",
+          mode: "bubble",
         },
         onclick: {
-          enable: false,
+          enable: true,
           mode: "push",
         },
         resize: true,
@@ -89,10 +89,10 @@ function particlesJSConfig() {
           },
         },
         bubble: {
-          distance: 400,
-          size: 40,
-          duration: 2,
-          opacity: 8,
+          distance: 140,
+          size: 5,
+          duration: 1,
+          opacity: 100,
           speed: 3,
         },
         repulse: {
