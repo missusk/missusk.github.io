@@ -28,9 +28,9 @@ canvas {
 
 .box {
   width: 350px;
-  height: 350 px;
+  height: 650 px;
   background: rgba(168, 119, 5, 0.103);
-  padding: 108px;
+  padding: 80px;
   text-align: center;
   margin: auto;
   color: white;
